@@ -1,0 +1,124 @@
+<!DOCTYPE html> 
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>J-Web</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <header>
+        <div class="contenedor">
+            <div class="logo">
+                <p><a href="https://www.facebook.com/J.Web.Genius">J-Web</a></p>
+            </div>
+            <nav class="menu">
+                <a href="#inicio">Inicio</a>
+                <a href="#acercade">Acerca de</a>
+                <a href="#portafolio">Portafolio</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+            <div class="contenido-header">
+                <h1 class="titulo-header">ESTÁS EN BUENAS MANOS</h1>
+                <span class="linea-header"></span>
+                <h2 class="texto-header">Agencia con mas de <b>15 años</b> de experiencia <span class="desaparecer">y <b>1000 proyectos</b> desarrollados</span></h2>
+                <!--<a href="" class="action-header">Call to action</a>-->
+            </div>
+        </div>
+    </header>
+    <main>
+        <section class="quienes" id="acercade">
+           <div class="contenedor">
+               <h3 class="quienes-titulo">TODO ESTO ES PARA TI</h3>
+               <p class="quienes-parrafo">Eres único y tienes entre manos un proyecto ilusionante donde estás depositando todo tu cariño. <b>Queremos estar a tu lado,</b> contagiarnos y ayudarte a crecer lo máximo posible.</p>
+            </div> 
+        </section>
+        <section class="quehacemos">
+            <div class="contenedor">
+                <div class="contenido-cajas">
+                    <div class="tarjeta">
+                        <img src="img/icono1.png" alt="" class="imagen-tarjeta">
+                        <div class="contenido-tarjeta">
+                            <h3 class="titulo-tarjeta">DESARROLLO A MEDIDA WEB Y APP</h3>
+                            <p class="parrafo-tarjeta">Déjanos ayudarte a crecer con el desarrollo de una solución a medida adaptada a tus necesidades. Conoce las ventajas de los entornos multidispositivo.</p>
+                        </div>
+                    </div>
+                    <div class="tarjeta">
+                            <img src="img/icono2.png" alt="" class="imagen-tarjeta">
+                            <div class="contenido-tarjeta">
+                                <h3 class="titulo-tarjeta">POSICIONAMIENTO SEO</h3>
+                                <p class="parrafo-tarjeta">Para ser el primero en Google, no vale con redactar artículos todas las semanas; somos tu aliado si lo que buscas son capacidades técnicas, estrategia y una dilatada experiencia en posicionamiento web.</p>
+                            </div>
+                    </div>
+                    <div class="tarjeta">
+                            <img src="img/icono3.png" alt="" class="imagen-tarjeta">
+                            <div class="contenido-tarjeta">
+                                <h3 class="titulo-tarjeta">IDENTIDAD DIGITAL Y DISEÑO</h3>
+                                <p class="parrafo-tarjeta">Confía en una de las agencias digitales con mas años de experienia en el sector para cumplir tus objetivos. Muchos de los logos que recuerdas, nacieron aquí.</p>
+                            </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="portafolio" id="portafolio">
+            <div class="contenedor">
+                <div class="portafolio-textos">
+                    <h2>DESARROLLOS RECIENTES</h2>
+                    <p>Como expertos en desarrollos a medida, entendemos que no hay dos proyectos iguales.</p>
+                </div>
+                <section class="galeria">
+                    <div class="fotos">
+                        <a href="https://www.cerotec.net/portafolio-logotipos/logo-identidad-sunshine/p-83">
+                            <img src="img/1.jpg" alt="">
+                        </a>
+                    </div>
+                     <div class="fotos">
+                        <a href="https://www.cerotec.net/portafolio-logotipos/benabal/p-82">
+                            <img src="img/2.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="fotos">
+                        <a href="https://www.cerotec.net/portafolio-logotipos/diseno-de-logotipos-kalachakra/p-81">
+                            <img src="img/3.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="fotos">
+                        <a href="https://www.cerotec.net/portafolio-tiendas-online/logotipo-identidad-visual/p-88">
+                            <img src="img/4.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="fotos">
+                        <a href="https://www.cerotec.net/portafolio-diseno-web/diseno-marca-web-deliquixote/p-79">
+                            <img src="img/5.jpg" alt="">
+                        </a>
+                    </div>
+                    <div class="fotos">
+                        <a href="https://www.cerotec.net/portafolio-identidad-corporativa/packaging-logotipo-kyball/p-78">
+                            <img src="img/6.jpg" alt="">
+                        </a>
+                    </div>
+                </section>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <section class="contacto" id="contacto">
+            <div class="contenedor">
+                <div class="footer-textos">
+                    <h2>Contacta con nosostros</h2>
+                    <!--<p>Lorem, ipsum dolor.</p>-->
+                </div>
+                <form action="enviar.php" class="formulario" method="POST">
+                    <input type="text" placeholder="Nombre" id="nombre" name="nombre" required value="" required="required">
+                    <input type="email" placeholder="Correo" id="correo" name="correo" required value="" class="email" required="required">
+                    <textarea name="mensaje" id="mensaje" placeholder="Mensaje:" required="required"></textarea>
+                    <div class="derecha">
+                        <input class="boton derecha" type="submit" value="Contactar" name="submmit">
+                    </div>
+                </form>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
