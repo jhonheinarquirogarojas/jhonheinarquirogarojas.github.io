@@ -1,5 +1,0 @@
-date	size'/'remotesize	flags(request:Update,Range state:File response:Modified,Chunked,gZipped)	statuscode	status ('servermsg')	MIME	Etag|Date	URL	localfile	(from URL)
-09:59:13	6289/6289	---MCZ	200	added ('OK')	text/html	date:Wed,%2007%20Apr%202021%2013:59:12%20GMT	https://pnrtscr.com/gz5n0s?fbclid=IwAR1rq_o8AM3DmssAlJxx9pUN-CgldgTYTM4eSQ904Zjyvod73d8AF11-V80	C:/My%20Web%20Sites/ingles/pnrtscr.com/gz5n0s27c0.html	(from )
-09:59:13	1754/1754	---MCZ	200	added ('OK')	text/html	date:Wed,%2007%20Apr%202021%2013:59:13%20GMT	https://pnrtscr.com/robots.txt		(from )
-09:59:14	86406/86406	---M--	200	added ('OK')	image/png	etag:%2215186-5bcc6749dd437%22	https://pnrtscr.com/lightshot.png	C:/My%20Web%20Sites/ingles/pnrtscr.com/lightshot.png	(from https://pnrtscr.com/gz5n0s?fbclid=IwAR1rq_o8AM3DmssAlJxx9pUN-CgldgTYTM4eSQ904Zjyvod73d8AF11-V80)
-09:59:15	973641/973641	---M--	200	added ('OK')	video/mp4	etag:%22edb49-5bcc6749df377%22	https://pnrtscr.com/video.mp4	C:/My%20Web%20Sites/ingles/pnrtscr.com/video.mp4	(from https://pnrtscr.com/gz5n0s?fbclid=IwAR1rq_o8AM3DmssAlJxx9pUN-CgldgTYTM4eSQ904Zjyvod73d8AF11-V80)
